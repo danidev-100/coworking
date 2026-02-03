@@ -3,9 +3,9 @@ import { FaBolt, FaCoffee, FaDoorOpen, FaWifi } from "react-icons/fa";
 import { Container } from "./Container";
 
 // Archivos dentro de `public/` se sirven desde la raíz: `public/assets/...` -> `/assets/...`
-const IMAGE_MAIN = "/assets/image/salas1.jpeg";
+const IMAGE_MAIN = "/assets/image/fachada.jpeg";
 const IMAGE_SECONDARY =
-	"/assets/image/pasillo.jpeg";
+	"/assets/image/salaconferencia.jpeg";
 
 const features = [
 	{
@@ -21,13 +21,20 @@ const features = [
 	{
 		icon: FaDoorOpen,
 		title: "Salas",
-		description: "Espacios para reuniones, presentaciones o llamadas privadas.",
+		description: "Espacios para reuniones, proyector,  presentaciones, llamadas privadas.",
 	},
 	{
 		icon: FaBolt,
 		title: "Listo para enchufar",
 		description: "Tomas y mesas pensadas para productividad real.",
 	},
+	
+	{
+		icon: FaDoorOpen,
+		title: "Box",
+		description: "Para 2 y 3 personas.",
+	}
+	
 ];
 
 export default function SpacesSection() {

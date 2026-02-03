@@ -16,41 +16,13 @@ export default function Footer() {
 			<Container className="py-14 md:py-16">
 				<div className="grid gap-10 lg:grid-cols-3">
 					<div>
-						<p className="text-lg font-semibold tracking-tight">
+						<p className="text-2xl font-semibold tracking-tight">
 							{siteConfig.brand}
 						</p>
 						<p className="mt-3 max-w-sm text-sm leading-relaxed text-white/75">
 							Un coworking pensado para que trabajes con foco, comodidad y buena energía.
 						</p>
-						<div className="mt-5 flex items-center gap-3">
-							<a
-								href={siteConfig.links.instagram}
-								target="_blank"
-								rel="noreferrer"
-								className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/15 transition hover:bg-white/15"
-								aria-label="Instagram"
-							>
-								<FaInstagram className="h-4 w-4" />
-							</a>
-							<a
-								href={siteConfig.links.facebook}
-								target="_blank"
-								rel="noreferrer"
-								className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/15 transition hover:bg-white/15"
-								aria-label="Facebook"
-							>
-								<FaFacebookF className="h-4 w-4" />
-							</a>
-							<a
-								href={siteConfig.links.linkedin}
-								target="_blank"
-								rel="noreferrer"
-								className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/15 transition hover:bg-white/15"
-								aria-label="LinkedIn"
-							>
-								<FaLinkedinIn className="h-4 w-4" />
-							</a>
-						</div>
+						
 					</div>
 
 					<div className="space-y-4">
@@ -61,7 +33,7 @@ export default function Footer() {
 						</div>
 						<div className="flex items-start gap-3 text-sm text-white/75">
 							<FaEnvelope className="mt-0.5 h-4 w-4 text-white/70" />
-							<span>hola@tucoworking.com</span>
+							<span>Cepasmendoza1@gmail.com</span>
 						</div>
 						<div className="flex items-start gap-3 text-sm text-white/75">
 							<FaMapMarkerAlt className="mt-0.5 h-4 w-4 text-white/70" />
@@ -86,9 +58,9 @@ export default function Footer() {
 							Horarios y planes
 						</p>
 						<ul className="mt-4 space-y-2 text-sm text-white/75">
-							<li>Day pass · Semanal · Mensual</li>
+							<li>Dias · Semana · Mes</li>
 							<li>Escritorio fijo o flexible</li>
-							<li>Salas por hora (según disponibilidad)</li>
+							<li>Horarios de 14 a 21 hs  (según disponibilidad)</li>
 						</ul>
 						<a
 							href={siteConfig.links.whatsapp}

@@ -2,15 +2,15 @@ import { Container } from "./Container";
 
 const images = [
   {
-    src: "/assets/image/cocina1.jpeg",
+    src: "/assets/image/pasillo.jpeg",
     alt: "Equipo trabajando en mesas compartidas",
   },
   {
-    src: "/assets/image/cocina2.jpeg",
+    src: "/assets/image/cocinamesada.jpeg",
     alt: "Sala de reuniones con buena luz",
   },
   {
-    src: "/assets/image/salas1.jpeg",
+    src: "/assets/image/cocina4.jpeg",
     alt: "Área de trabajo con escritorios",
   },
   {
@@ -30,11 +30,11 @@ const images = [
     alt: "Zona de descanso dentro del coworking",
   },
   {
-    src: "/assets/image/muebles1.jpeg",
+    src: "/assets/image/cocina1.jpeg",
     alt: "Zona de descanso dentro del coworking",
   },
   {
-    src: "/assets/image/muebles1.jpeg",
+    src: "/assets/image/box.jpeg",
     alt: "Zona de descanso dentro del coworking",
   },
 ];

@@ -24,8 +24,8 @@ export default function Hero() {
 				<Header />
 				<Container className="pb-14 pt-24 md:pb-20 md:pt-28 lg:pb-28">
 					<div className="max-w-2xl">
-						<p className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white ring-1 ring-white/15">
-							Espacios flexibles · Salas · Café · WiFi rápido
+						<p className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-ms font-semibold tracking-wide text-white ring-1 ring-white/15">
+							Espacios flexibles · Salas · Cocina · WiFi rápido
 						</p>
 						<h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
 							Un coworking moderno para trabajar cómodo y concentrado
@@ -56,12 +56,9 @@ export default function Hero() {
 							
 							<div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/15">
 								<p className="text-2xl font-semibold text-white">Salas</p>
-								<p className="mt-1 text-xs">Reuniones y calls</p>
+								<p className="mt-1 text-xs">Reuniones y presentaciones</p>
 							</div>
-							<div className="rounded-2xl bg-white/10 p-4 ring-1 ring-white/15">
-								<p className="text-2xl font-semibold text-white">Café</p>
-								<p className="mt-1 text-xs">Incluido en el día</p>
-							</div>
+							
 						</div>
 					</div>
 				</Container>
